@@ -1,113 +1,36 @@
-a,address,body,div,footer,h1,h2,h3,h4,header,html,li,main,p,section,span,strong,ul {
-      margin: 0;
-    padding: 0;
-   border: 0;
-}
-body {
-    color: black;
-    background-color: lightgray;
- font-family: Tahoma,sans-serif;
-}
-header, footer {
-	font: bold 2em Georgia,serif;
-       text-shadow: 1px 1px 1px ;
-  background-color: white;
-}
-header, main, footer {
-    margin: 0 auto;
-       width: 1300px;
-}
-main {
-      background-color: white;
-}
-h1,h2,h3,h4  { 
-    color: navy;
-     font-size: 1.3em;
-     font-weight: normal;
-  text-transform: uppercase;
-    text-align: center;
-}
-h1 {
-  font: bold 2.2em Georgia,serif;
-       text-shadow: 2px 2px 1px goldenrod;
-   letter-spacing: 1px;
-}
-h4 { 
-     display:inline-block;
-}
-address {
-   font-style: normal;
-}
-#profil {
-     margin: 0 0 1.2em;
-}
-#profil p {
-    font-size: 0.9em;
-     color: gray;
-  padding-top: 0.6em;
-}
-.mainsection section{
- margin: 1.2em 0;
-}
-.mainsection h2 {
-     font-size: 1.8em;
-}
-#formation ul  {
-    list-style: none;
-}
-#contact {
-  border: thin solid;
-   border-radius: .3em;
-  margin-top: -2.2em;
-   width: 200px;
- float: right;
- margin-right: 5%;
-  background-color: lightgray;
-}
-#contact h2 {
-        background-color: navy;
-       color: white;
- padding: 0.25em;
-}
-#contact ul{
-     padding: 0.6em;
-       font-size: smaller;
-   list-style: none;
-}
-.dates {
-    color: gray;
-   float: right;
-}
-.competences {
-      width: 35%; 
-}
-.competences li {
-    display: block;
-       background: navy;
-     color: white;
- margin-bottom: 0.3em;
- text-align: right;
-    padding: 0.3em;
-       box-sizing: border-box; 
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252839+0,828699+100 */
-     background: #252839; /* Old browsers */
-       background: -moz-linear-gradient(left,  #252839 0%, #828699 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#252839), color-stop(100%,#828699)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #252839 0%,#828699 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #252839 0%,#828699 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #252839 0%,#828699 100%); /* IE10+ */
-  background: linear-gradient(to right,  #252839 0%,#828699 100%); /* W3C */
-}
-.competences li:hover {
-     opacity: .8;
-}
-.w100 {
-    width: 100%;
-}
-.w80 {
-    width: 80%;
-}
-.w60 {
-    width: 60%;
+html, button, input, select, textarea{
+ color: #744;
 }
 
+html {
+
+ font-size: 1.2em; 
+       line-height: 1.4; 
+       background-color: rgb(10,40,52);
+}
+
+#wrapper{
+      max-width: 900px;
+      min-width: 320px;
+      margin-left: 500px;
+      margin-right: 400px;
+}
+
+#divimg {
+     display : inline-block;
+}
+
+#divimg img {
+     width:300px; 
+     background-color: rgba(0,0,0.2, 0.2);
+     border-width: 1px;
+     border-color: #ccc;
+     border-radius: 3px;
+     
+}
+
+#coordonnees {
+    display : inline-block;
+    text-align: center;
+    width: 950px; 
+}
