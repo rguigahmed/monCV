@@ -1,7 +1,10 @@
 html, button, input, select, textarea{
- color: #744;
+ color: white;
 }
-
+header, main, footer {
+    margin: 0 auto;
+       width: 800px;
+}
 html {
 
  font-size: 1.2em; 
@@ -33,4 +36,57 @@ html {
     display : inline-block;
     text-align: center;
     width: 950px; 
+}
+.competences {
+      width: 35%; 
+}
+.competences li {
+    display: block;
+       background: navy;
+     color: white;
+ margin-bottom: 0.3em;
+ text-align: right;
+    padding: 0.3em;
+       box-sizing: border-box; 
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252839+0,828699+100 */
+     background: #252839; /* Old browsers */
+       background: -moz-linear-gradient(left,  #252839 0%, #828699 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#252839), color-stop(100%,#828699)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #252839 0%,#828699 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #252839 0%,#828699 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #252839 0%,#828699 100%); /* IE10+ */
+  background: linear-gradient(to right,  #252839 0%,#828699 100%); /* W3C */
+}
+.competences li:hover {
+     opacity: .8;
+}
+.w100 {
+    width: 100%;
+}
+.w80 {
+    width: 80%;
+}
+.w60 {
+    width: 60%;
+}
+.w40 {
+width: 40%;}
+#contact {
+  border: thin solid;
+   border-radius: .3em;
+  margin-top: -2.2em;
+   width: 240px;
+ float: right;
+ margin-right: 5%;
+  background-color: lightgray;
+}
+#contact h2 {
+        background-color: navy;
+       color: white;
+ padding: 0.25em;
+}
+#contact ul{
+     padding: 0.4em;
+       font-size: smaller;
+   list-style: none;
 }
