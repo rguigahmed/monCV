@@ -1,0 +1,13 @@
+@media only screen and (max-width: 740px) {
+#wrapper {background: #f77; }
+}
+@media only screen and (max-width: 740px) {
+#wrapper {background: #7f7; }
+}
+@media only screen and (max-width: 740px) {
+#wrapper {background: #77f; }
+}
+#wrapper { 
+/*background: white;*/
+width:100%;
+}

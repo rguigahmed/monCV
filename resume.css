@@ -15,8 +15,8 @@ html {
 #wrapper{
       max-width: 900px;
       min-width: 320px;
-      margin-left: 500px;
-      margin-right: 400px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 #divimg {
@@ -30,6 +30,9 @@ html {
      border-color: #ccc;
      border-radius: 3px;
      
+}
+h1 {
+	font-family: atomic-age, sans-serif;
 }
 
 #coordonnees {
