@@ -26,7 +26,12 @@
 
 <body >
 
-<section id="contact" style="margin-left: 80px">
+
+   <div id="wrapper">
+<div id="divimg" style="height: 700px;" style="margin-right: -2.10px;" >
+           <img src="images/monimage.jpg" alt="photo de cv"/>
+         </div>
+<section id="contact" style="margin-right: 1200px" >
                            <h2>Contact</h2>
                               <address>
                                      <ul>
@@ -36,26 +41,25 @@
                                      </ul>
                        		  </address>
                 </section>
-   <div id="wrapper">
-
      <header>
-         <div id="divimg" >
-           <img src="images/monimage.jpg" alt="photo de cv"/>
-         </div>
-         <div id="coordonnees" >
-               <h1>RGUIG Ahmed</h1><hr></hr>
-               <h2> Ingénieur en informtique à la recherche d'un stage de fin d'études </h2>
-               
-               <div>Adresse : 11 BIS rue de la DIGUE</div>
-               <div>Ville   : Brest, 29200, France</div>
-               <div>Email   : ahmedrguig04@gmail.com</div>
-               <div>Mobile  : 07 72 09 61 22</div>
-               <div>Date & Lieu naissance : 22 Avril 1995 à MARSEILLE FRANCE </div>
-          </div>             
+         
+
+         <div itemscope itemtype="http://schema.org/Person">
+</br></br></br></br></br>
+	<h1 itemprop="name" style="margin-left: 280px;"> RGUIG Ahmed</h1>
+	</div>
+
+	
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+	<span itemprop="streetAddress" style="margin-left: 178px;" >Adresse : 11 bis rue de la digue</span>
+	<span itemprop="addressLocality" style="margin-left: 200px;">Brest</span>
+	<span itemprop="postalCode" style="margin-left: 200px;">29200</span>
+	</div>      
      </header>
 
      <section>
-          </br></br>
+          </br>
+		</br>
 
           <article style="text-decoration: underline;"><i class="icon-camera-retro"></i> Formation </article>
                <dl style="margin-left: 50px;">
@@ -84,7 +88,7 @@
                <dl style="margin-left: 40px;">
                     <dt>Juin-Septembre 2017 : Administration système </dt>
                        <dd class="listeexperience" style="display: inline;">ENOVA R&T</dd>
-                       <dd class="listeformation"> Stage ingénieur Assistant-Mission  : Mise en place d'une solution IPbx sécurisée basée sur le logiciel ASTERISK 
+                       <dd class="listeformation" style="text-align: justify;"> Stage ingénieur Assistant-Mission  : Mise en place d'une solution IPbx sécurisée basée sur le logiciel ASTERISK 
 - Etude générale de la voix sur IP
 -ETude des attaques contre la VOIP et bonne pratiques de sécurisation 
 -Installation et configuration de la solution avec l'outil ASTERISK
@@ -188,12 +192,14 @@
 
      </section>
    <footer style="text-align: center;">
-            <a class="facebook" href="https://www.facebook.com/ahmed.rguig" alt="facebook">Facebook</a>
-            <a class="linkdin" href="https://www.linkedin.com/in/ahmed-rguig-515abbb6" alt="linkdin">Linkdin</a>
-            <a class="github" href="https://github.com/rguigahmed" alt="github">Github</a>
+
             
-            <a class="google" href="" alt="google">Google</a>
-  </footer>
+            <a class="linkdin" href="https://www.linkedin.com/in/ahmed-rguig-515abbb6" onclick="window.open(this.href); return false;" rel="nofollow"><img src="images/Icônes Linkedin - Téléchargement gratuit en PNG et SVG_fichiers/linkedin_004.png" alt="Suivez les Twits de la Ferme du web !" title="Suivez les Twits de la Ferme du web !" />
+ <a style="margin: 5px 5px;" href="https://github.com/rguigahmed" onclick="window.open(this.href); return false;" rel="nofollow"><img src="images/Icônes Github - Téléchargement gratuit en PNG et SVG_fichiers/github_005.png" alt="Suivez les Twits de la Ferme du web !" title="Suivez les Twits de la Ferme du web !" /></a>
+	<a style="margin: 5px 5px;" href="https://github.com/rguigahmed" onclick="window.open(this.href); return false;" rel="nofollow"><img src="images/fb_fichiers/facebook_005.png" alt="Suivez les Twits de la Ferme du web !" title="Suivez les Twits de la Ferme du web !" /></a>
+            
+            <a style="margin: 5px 5px;" href="https://google.com/rguigahmed" onclick="window.open(this.href); return false;" rel="nofollow"><img src="images/fb_fichiers/google.png" alt="Suivez les Twits de la Ferme du web !" title="Suivez les Twits de la Ferme du web !" /></a>
+            </footer>
 </div>
       
 </body>

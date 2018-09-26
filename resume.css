@@ -1,5 +1,5 @@
 html, button, input, select, textarea{
- color: white;
+ color: black;
 }
 header, main, footer {
     margin: 1 auto;
@@ -9,30 +9,40 @@ html {
 
  font-size: 1.2em; 
        line-height: 1.4; 
-       background-color: rgb(10,40,52);
+       background-color: rgb(120,120,120);
+}
+hr {
+	width: 100%;
 }
 
 #wrapper{
+
+	padding: 40px 80px 40px 80px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	background-color: rgb(240,240,240);
       max-width: 900px;
       min-width: 320px;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 480px;
+      margin-right: 400px;
 }
 
 #divimg {
-     display : inline-block;
+  float: right;
 }
 
 #divimg img {
-     width:300px; 
+     width:190px; 
      background-color: rgba(0,0,0.2, 0.2);
-     border-width: 1px;
-     border-color: #ccc;
-     border-radius: 3px;
+     border-width: 2px;
+	border-color: #ccc;
+	border-radius: 3px;
+    float: right;
      
 }
 h1 {
-	font-family: atomic-age, sans-serif;
+	font-family: atomic-age, serif;
 }
 
 #coordonnees {
@@ -79,14 +89,17 @@ width: 40%;}
    border-radius: .3em;
   margin-top: 1em;
    width: 240px;
- float: right;
- margin-right: 30%;
+
+ margin-left: 10%;
+
   background-color: lightgray;
+
 }
 #contact h2 {
         background-color: navy;
        color: white;
  padding: 0.25em;
+margin-left: 35%;
 }
 #contact ul{
      padding: 0.4em;
