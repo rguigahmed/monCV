@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
      <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title> Mon CV </title>
@@ -13,6 +14,7 @@
               margin-left : 20px;
             }
 </style>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
 <link rel="stylesheet" href="resume.css" />
 <link rel="stylesheet" href="responsive.css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css">
@@ -26,6 +28,10 @@
 
 <body >
 
+
+
+ 
+ <br>
 
    <div id="wrapper">
 <div id="divimg" style="height: 700px;" style="margin-right: -2.10px;" >
@@ -63,26 +69,17 @@
      <section>
           </br>
 		</br>
-
-          <article style="text-decoration: underline;"><i class="icon-camera-retro"></i> Formation </article>
-               <dl style="margin-left: 50px;">
-                    <dt>2018-2019: Université de Bretagne Occidentale</dt>
-                       <dd class="listeformation">Master 2</dd>
-                       <dd class="listeformation"> Développement lOgiciel des Systèmes d’Information.</dd>
-               </dl>
-               <dl style="margin-left: 50px;">
-                    <dt>2013-2017: Ecole nationale des sciences appliquées de TANGER </dt>
-                       <dd class="listeformation">Diplome d'ingénieur d'état en génie informatique</dd>
-                       
-               </dl>
-               
-               <dl style="margin-left: 50px;">
-                    <dt>2011-2012: Lycée IBN GHAZI </dt>
-                       <dd class="listeformation">Baccalauréat</dd>
-                       <dd class="listeformation">Science Physique , Mention très Bien.</dd>
-               </dl>
-
-          <article style="text-decoration: underline;"><i class="icon-camera-retro"></i> Expérience Professionnel</article>
+        
+          <article style="text-decoration: non; font-weight: bold; font-size: 20px;"><i class="icon-camera-retro"></i> <div class="tooltip"> Parcours académique
+  <span class="tooltiptext"> Formation ( Baccalauréat & Etudes supérieures )</span>
+</div>  </article></br>
+	<dd><em> 2018 - 2019  :</em> Master 2 (Double diplômation) <button onclick="SizeProgress(0)"> Détails </button><dd class="p1" id="0" style="display:none; fond-size:1px;" > 		Développement lOgiciel des Systèmes d'Information</dd></dd>
+	<dd style="margin-left: 50px;"><em>2017 - 2018 : </em>Ingénieur d'état    <button onclick="SizeProgress(1)"> Détails </button><dd class="p1" id="1" style="margin-left: 50px; display:none; fond-size:1px;"> 		génie informatique </dd></dd>
+<dd><em>2016 - 2017 : </em>  Baccalauréat sciences physiques : <button onclick="SizeProgress(2)"> Détails </button><dd class="p1" id="2" style="display:none; fond-size:1px"> 		  Mention très bien</dd>
+</br></br>
+          <article style="text-decoration: underline; font-weight: bold;"><i class="icon-camera-retro"></i><div class="tooltip"> Expériences professionnelles
+  <span class="tooltiptext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Parcours professionnels ( Stages + Freelance ) </span></br>
+</div>  <br></article>
               <dl style="margin-left: 40px;">
                     <dt>Juin-Aout : 2018 Mission freelance</dt>
                        <dd class="listeexperience" style="display: inline;"></dd>
@@ -102,26 +99,106 @@
                       <dd class="listeexperience" style="display: inline;">Pixycom </dd>
                        <dd class="listeformation">Intégration d'une équipe de développeur web pour la réalisation d'un site web à base de PHP ( LARAVEL )</dd>
                </dl>
-     </section>
+</span>
+     
      <section>
-         <article style="text-decoration: underline;"><i class="icon-camera-retro"></i> Compétences </article>
-                <div style="margin-left: 10px;">
-		<h5>  Programmation </h5>
-                    <ul>
+</br>
+         <article style="text-decoration: underline; font-weight: bold;"><i class="icon-camera-retro"></i> <div class="tooltip"> Compétences  <span class="tooltiptext"> Descriptions de mes compétences </span> </article>
+<h5>  Programmation </h5>
+                <div style="margin-left: 30px;">
+		<table><tr>
+<td>
+<ul>
+    <li>
+        PHP
+        <span class="eval PHP">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        XML
+        <span class="eval XML">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        HTML
+        <span class="eval HTML">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        JAVASE
+        <span class="eval JAVASE">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        JAVAEE
+        <span class="eval JAVAEE">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        Symfony
+        <span class="eval Symfony">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
 
+<ul>
+    <li>
+        C
+        <span class="eval C">
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	<i class="far fa-star"></i>
+	</span>
+    </li>
+</ul>
+</td>
+</table>
+                     
+                        
                          
-                         <li>JAVA</li>
-                         <li>JAVA EE</li>
-                         <li>HTML5</li>
-                         <li>C,C++,C#</li>
-                         <li>PHP</li>
-                         <li>JAVASCRIPT</li>
-                         <li>Symfony</li>
-                         <li>Bootstrap</li>
-                         <li>XML </li>
-                         <li>Assembleur </li>
-                         
-                    </ul>
+                  
                 </div>
 <div style="margin-left: 10px;">
 		<h5>  Système d'exploitation  </h5>
@@ -175,6 +252,7 @@
                          
                     </ul>
                 </div>
+</span>
          <article style="text-decoration: underline;"><i class="icon-camera-retro"></i> Langues </article>
              <div class="competences">
                        <ul>
@@ -206,4 +284,5 @@
 </div>
       
 </body>
+<script src="js/fic.js"></script>
 </html>
